@@ -8,7 +8,7 @@ description: Ask Codex CLI to review staged files for a specified concern. Use w
 Replace `XXX` with the requested review concern or just a plan file, then run exactly once from the repository root:
 
 ```
-codex exec -m gpt-6-astra -c 'model_reasoning_effort="low"' "/review Review the changes in the staged files regarding XXX."
+codex exec -m gpt-6-astra -c 'model_reasoning_effort="high"' "/review Review the changes in the staged files regarding XXX."
 ```
 
 Return the review result without modifying the reviewed files.
